@@ -1,0 +1,55 @@
+/* A good website for color palletes is color-name.com */
+/* I really like this metallic white background color */
+body {background-color: #FBFCF6;
+      margin: 0 auto;
+      background-position:center;
+      background-size: contain;}
+
+.head1 {
+    font-size:40px;
+    color:#040309;
+    font-weight:bold;
+}
+.head2 {
+    font-size:17px;
+    color:#040309;
+    margin-left:10px;
+    margin-bottom:10px;
+}
+
+.menu { 
+    position: sticky;
+    top: 0;
+    background-color: #E2E3DE;;
+    padding:10px 0px 10px 0px;
+    color:white;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.menu a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.menu-log {
+    right: auto;
+    float: right;
+}
+footer {
+    width: 100%;
+    bottom: 0px;
+    background-color: #000;
+    color: #fff;
+    position: absolute;
+    padding-top:20px;
+    padding-bottom:50px;
+    text-align:center;
+    font-size:30px;
+    font-weight:bold;
+}
+.body_sec {
+    margin-left:20px;
+}
