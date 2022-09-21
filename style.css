@@ -17,7 +17,8 @@ body {background-color: #FBFCF6;
     margin-bottom:10px;
 }
 
-.menu { 
+/* The container for the navigation bar */
+.navbar { 
     position: sticky;
     top: 0;
     background-color: #E2E3DE;;
@@ -26,14 +27,22 @@ body {background-color: #FBFCF6;
     margin: 0 auto;
     overflow: hidden;
 }
-.menu a {
+/* Links on the navigation bar */
+.navbar a {
     float: left;
+    display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 20px;
 }
+/* Links - change color on hover */
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
 .menu-log {
     right: auto;
     float: right;
