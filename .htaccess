@@ -1,0 +1,12 @@
+# beginning mod rewrite
+
+RewriteEngine on
+
+# ensure the file is not in our directory
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# check for file in our directory with .html extension
+RewriteCond %{REQUEST_FILENAME}/.html -f
+
+# this is where we show the page with the .html extension
+RewriteRule ^(.*)$ $1.html [NC,L]
