@@ -1,27 +1,28 @@
 <html> 
   <head>
-    <meta charset="UTF-8">
-    <title>Terry was here</title> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terry</title> 
     <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
-    <!-- Header Section -->
     <header>
-      <div class="head1">Terry Emeigh</div>
-      <div class="head2">Terry was here.</div>
+      <a href="/index" class="logo">T</a>
+      <ul>
+        <li><a href="/index">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/gallery">Gallery</a></li>
+        <li><a href="/projects">Projects</a></li>
+      </ul>
     </header>
-
-    <!-- Menu Navigation Bar -->
-    <nav class="navbar">
-      <a href="/index" title="Home">Home</a>
-      <a href="/projects">Projects</a>
-      <a href="/gallery">Gallery</a>
-      <a href="/about">About</a>
-      <div class="menu-log">
-        <a href="#login">LOGIN</a>
-      </div>
-    </nav>
-
+    <section class="banner"></section>
+      <script type="text/javascript">
+        window.addEventListener("scroll",function(){
+          var header = document.querySelector("header");
+          header.classList.toggle("sticky", window.scrollY > 0);
+        })
+      </script>
   </body>
+
+
 </html>
